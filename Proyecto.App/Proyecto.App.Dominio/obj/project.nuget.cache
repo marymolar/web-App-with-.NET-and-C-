@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8mPs/7yt7BE3sIfk4TSby626V2lSP86A2nPY8T+C/G/t5Psc7UslGd4xlfpwTQFJ0r5JjoJRy3aMnQeLY4sRow==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mary\\Desktop\\ProyectoCiclo3\\Proyecto.App\\Proyecto.App.Dominio\\Proyecto.App.Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mary\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

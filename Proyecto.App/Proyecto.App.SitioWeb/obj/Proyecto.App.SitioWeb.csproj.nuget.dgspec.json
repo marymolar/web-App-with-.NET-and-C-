@@ -1,0 +1,200 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Mary\\Desktop\\ProyectoCiclo3\\Proyecto.App\\Proyecto.App.SitioWeb\\Proyecto.App.SitioWeb.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Mary\\Desktop\\ProyectoCiclo3\\Proyecto.App\\Proyecto.App.Dominio\\Proyecto.App.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mary\\Desktop\\ProyectoCiclo3\\Proyecto.App\\Proyecto.App.Dominio\\Proyecto.App.Dominio.csproj",
+        "projectName": "Proyecto.App.Dominio",
+        "projectPath": "C:\\Users\\Mary\\Desktop\\ProyectoCiclo3\\Proyecto.App\\Proyecto.App.Dominio\\Proyecto.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Mary\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mary\\Desktop\\ProyectoCiclo3\\Proyecto.App\\Proyecto.App.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mary\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.423\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mary\\Desktop\\ProyectoCiclo3\\Proyecto.App\\Proyecto.App.Persistencia\\Proyecto.App.Persistencia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mary\\Desktop\\ProyectoCiclo3\\Proyecto.App\\Proyecto.App.Persistencia\\Proyecto.App.Persistencia.csproj",
+        "projectName": "Proyecto.App.Persistencia",
+        "projectPath": "C:\\Users\\Mary\\Desktop\\ProyectoCiclo3\\Proyecto.App\\Proyecto.App.Persistencia\\Proyecto.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\Mary\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mary\\Desktop\\ProyectoCiclo3\\Proyecto.App\\Proyecto.App.Persistencia\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mary\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\Users\\Mary\\Desktop\\ProyectoCiclo3\\Proyecto.App\\Proyecto.App.Dominio\\Proyecto.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Mary\\Desktop\\ProyectoCiclo3\\Proyecto.App\\Proyecto.App.Dominio\\Proyecto.App.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.423\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mary\\Desktop\\ProyectoCiclo3\\Proyecto.App\\Proyecto.App.SitioWeb\\Proyecto.App.SitioWeb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mary\\Desktop\\ProyectoCiclo3\\Proyecto.App\\Proyecto.App.SitioWeb\\Proyecto.App.SitioWeb.csproj",
+        "projectName": "Proyecto.App.SitioWeb",
+        "projectPath": "C:\\Users\\Mary\\Desktop\\ProyectoCiclo3\\Proyecto.App\\Proyecto.App.SitioWeb\\Proyecto.App.SitioWeb.csproj",
+        "packagesPath": "C:\\Users\\Mary\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mary\\Desktop\\ProyectoCiclo3\\Proyecto.App\\Proyecto.App.SitioWeb\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mary\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Mary\\Desktop\\ProyectoCiclo3\\Proyecto.App\\Proyecto.App.Dominio\\Proyecto.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\Mary\\Desktop\\ProyectoCiclo3\\Proyecto.App\\Proyecto.App.Dominio\\Proyecto.App.Dominio.csproj"
+              },
+              "C:\\Users\\Mary\\Desktop\\ProyectoCiclo3\\Proyecto.App\\Proyecto.App.Persistencia\\Proyecto.App.Persistencia.csproj": {
+                "projectPath": "C:\\Users\\Mary\\Desktop\\ProyectoCiclo3\\Proyecto.App\\Proyecto.App.Persistencia\\Proyecto.App.Persistencia.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.423\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
